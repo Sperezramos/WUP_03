@@ -46,6 +46,18 @@ The mean for the back seat people is three times as much than the people in the 
 
 ## Inferential Tests
 
+```{r}
+model1 <- aov(alcohol~Seat,data=davisdata)
+summary.aov(model1)
+```
+since the p value from one way anova was such a small number we are going to follow up with tukeyhsd
+
+```{r}
+plot(TukeyHSD(model1))
+```
+
+The Middle-Back and Front-Back confidence intervals are less than zero than the results would be significantly different. 
+
 ## Conclusions
 
 
