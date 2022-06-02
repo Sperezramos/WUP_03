@@ -39,6 +39,11 @@ The people in the back seat have a higher consumption of alcohol compared to the
 
 ## Numerical Summarys 
 
+```{r}
+favstats(alcohol~Seat,data=davisdata)
+```
+The mean for the back seat people is three times as much than the people in the middle seats and even more than the people in the front seats.
+
 ## Inferential Tests
 
 ## Conclusions
