@@ -35,6 +35,8 @@ basicCN + geom_boxplot()
 basicCN + geom_boxplot(notch=TRUE,outlier.color = "red") + stat_boxplot(geom ='errorbar') + labs(title="Fancy notch boxplot \n with 2 lines")
 ```
 
+The people in the back seat have a higher consumption of alcohol compared to the people in the middle and the front seat. The median for the people that are in the back is higher than the top 75 percentile of the front seat and the middle seat people. 
+
 ## Numerical Summarys 
 
 ## Inferential Tests
